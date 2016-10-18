@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+  <div id="player">
+    <div id="video-wrapper">
+      <video id="video" poster="https://peach.blender.org/wp-content/uploads/bbb-splash.png">
+        <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+        <source src="http://www.w3schools.com/html/mov_bbb.webm" type="svideo/webm">
+      </video>
+    </div>
+    <div id="control-wrapper">
+      <div id="play-pause">
+        <div class="triangle"></div>
+      </div>
+      <div id="progression">
+        <progress id="progress" value="100" max="100"></progress>
+      </div>
+    </div>
+  <script src="./index.js"></script>
+  </div>
+</body>
+</html>
